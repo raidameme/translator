@@ -1,0 +1,14 @@
+meme_dict = {}
+meme_dict["КРИНЖ"] = "Что-то очень странное или стыдное"
+meme_dict["НН"] = "no name/неизвестный человек"
+meme_dict["ВАЙБ"] = "особая атмосфера"
+meme_dict["ТОКСИК"] = "токсичный человек"
+meme_dict["ЮЗАТЬ"] = "использовать"
+
+for i in range(5):
+    word = input("Введите непонятное слово (большими буквами!): ")
+    
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print('Такого слово нет')
